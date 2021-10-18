@@ -25,10 +25,10 @@ const Header = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto text-center">
-                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-5" to="/home">Home</NavLink>
-                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-5" to="/servises">Servises</NavLink>
-                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-5" to="/about">About Us</NavLink>
-                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-5" to="/contact">Contact</NavLink>
+                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-5" to="/home">HOME</NavLink>
+                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-5" to="/services">SERVICES</NavLink>
+                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-5" to="/about">ABOUT US</NavLink>
+                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-5" to="/contact">CONTACT</NavLink>
                 </Nav>
                 <Nav className="text-center">
                  {
@@ -36,10 +36,10 @@ const Header = () => {
                     <div>
                         <Navbar.Text>{user.displayName} </Navbar.Text>
                         <img src={userImg} width="33" height="33" className="d-inline-block align-top rounded-circle me-2" alt=""/>
-                        <Button onClick={logOut} variant="info text-white rounded-0"><i class="fas fa-sign-in-alt"></i> Sign Out</Button>
+                        <Button onClick={logOut} variant="info text-white rounded-0"><i className="fas fa-sign-in-alt"></i> Sign Out</Button>
                     </div>
                     : 
-                    <NavLink to="/signin"><Button variant="info text-white rounded-0"><i class="fas fa-sign-in-alt"></i> Sign In</Button></NavLink>
+                    <NavLink to="/signin"><Button variant="info text-white rounded-0"><i className="fas fa-sign-in-alt"></i> Sign In</Button></NavLink>
                  }
                 </Nav>
             </Navbar.Collapse>
