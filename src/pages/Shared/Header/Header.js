@@ -19,7 +19,7 @@ const Header = () => {
     };
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" fixed="top" bg="light" variant="light">
+            <Navbar collapseOnSelect expand="lg"  bg="light" variant="light">
             <Container>
             <Navbar.Brand><NavLink to="/home"><img src={logo} width="180" height="40" className="d-inline-block align-top" alt=""/></NavLink></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

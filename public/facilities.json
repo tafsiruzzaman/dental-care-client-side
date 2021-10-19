@@ -1,0 +1,34 @@
+[
+    {
+        "key": "AB001K",
+        "name": "Best surgeons",
+        "innerText": "There are many dental surgeon with higher degrees in our clinic who are the best in the country",
+        "img": "https://html.modernwebtemplates.com/medent/img/certification.png",
+        "bgColor": "#00b3cc",
+        "textColor": "#dff0ef"
+    },
+    {
+        "key": "AB002K",
+        "name": "24/7 Opened",
+        "innerText": "We provide our services 24 hours a day and 7 days in a week. So you can come anytime",
+        "img": "https://html.modernwebtemplates.com/medent/img/time.png",
+        "bgColor": "#00a1be",
+        "textColor": "#dff0ef"
+    },
+    {
+        "key": "AB003K",
+        "name": "Professional Staff",
+        "innerText": "We provide Professional Staff for every client. That makes us special.",
+        "img": "https://html.modernwebtemplates.com/medent/img/personal.png",
+        "bgColor": "#0087aa",
+        "textColor": "#dff0ef"
+    },
+    {
+        "key": "AB004K",
+        "name": "Painless Surgery",
+        "innerText": "We had highly qualified surgeons. So youth surgery will be painless",
+        "img": "https://html.modernwebtemplates.com/medent/img/like.png",
+        "bgColor": "#006d95",
+        "textColor": "#dff0ef"
+    }
+]

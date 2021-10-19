@@ -1,0 +1,12 @@
+[
+    {
+        "key": "abc1",
+        "name": "DENTAL SERVICES",
+        "category": "Teeth",
+        "innerText": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.",
+        "img": "http://medicare.bold-themes.com/dentist/wp-content/uploads/sites/3/2015/12/shutterstock_192351722-320x200.jpg",
+        "bgColor": "#00b3cc",
+        "textColor": "#222",
+        "textLight": "#7e8592"
+    }
+]

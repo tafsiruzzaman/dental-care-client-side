@@ -1,0 +1,82 @@
+[
+    {
+        "key": "abc1",
+        "name": "DENTAL SERVICES",
+        "category": "Teeth",
+        "innerText": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth",
+        "img": "http://medicare.bold-themes.com/dentist/wp-content/uploads/sites/3/2015/12/shutterstock_192351722-320x200.jpg",
+        "bgColor": "#00b3cc",
+        "textColor": "#222",
+        "textLight": "#7e8592"
+    },
+    {
+        "key": "abc2",
+        "name": "IMPLANTS",
+        "category": "If you lost yours",
+        "innerText": "A dental implant is a metal post that replaces the root portion of a missing tooth. tooth (crown) is placed on an extension.",
+        "img": "http://medicare.bold-themes.com/dentist/wp-content/uploads/sites/3/2015/12/shutterstock_227481766-320x200.jpg",
+        "bgColor": "#00b3cc",
+        "textColor": "#222",
+        "textLight": "#7e8592"
+    },
+    {
+        "key": "abc3",
+        "name": "DENTISTRY",
+        "category": "Cosmetic",
+        "innerText": "Dentistry, the profession concerned with the prevention and treatment of oral disease including diseases of the teeth structures",
+        "img": "http://medicare.bold-themes.com/dentist/wp-content/uploads/sites/3/2015/12/shutterstock_270756593-320x200.jpg",
+        "bgColor": "#00b3cc",
+        "textColor": "#222",
+        "textLight": "#7e8592"
+    },
+    {
+        "key": "abc4",
+        "name": "DENTAL BRIDGES",
+        "category": "The best solution",
+        "innerText": "A bridge is made up of two or more crowns for the teeth on either side of the gap -- teeth are called abutment teeth",
+        "img": "http://medicare.bold-themes.com/dentist/wp-content/uploads/sites/3/2015/12/shutterstock_156787064-320x200.jpg",
+        "bgColor": "#00b3cc",
+        "textColor": "#222",
+        "textLight": "#7e8592"
+    },
+    {
+        "key": "abc5",
+        "name": "CROWNS",
+        "category": "Painless fixes",
+        "innerText": "Dental crowns are tooth-shaped “caps” that can be placed over your tooth. The crown restores the tooth's, strength and appearance.",
+        "img": "http://medicare.bold-themes.com/dentist/wp-content/uploads/sites/3/2015/12/shutterstock_142427935-320x200.jpg",
+        "bgColor": "#00b3cc",
+        "textColor": "#222",
+        "textLight": "#7e8592"
+    },
+    {
+        "key": "abc6",
+        "name": "INVISALIGN",
+        "category": "Line them all up",
+        "innerText": "Dental crowns are tooth-shaped “caps” that can be placed over your tooth. The crown restores the tooth's, strength and appearance.",
+        "img": "http://medicare.bold-themes.com/dentist/wp-content/uploads/sites/3/2015/12/shutterstock_124314160-320x200.jpg",
+        "bgColor": "#00b3cc",
+        "textColor": "#222",
+        "textLight": "#7e8592"
+    },
+    {
+        "key": "abc7",
+        "name": "VENEERS",
+        "category": "Porcelain",
+        "innerText": "The Invisalign system uses clear aligner trays to move your teeth into place over a period of time. The trays are made smooth.",
+        "img": "http://medicare.bold-themes.com/dentist/wp-content/uploads/sites/3/2015/12/shutterstock_118733071-320x200.jpg",
+        "bgColor": "#00b3cc",
+        "textColor": "#222",
+        "textLight": "#7e8592"
+    },
+    {
+        "key": "abc8",
+        "name": "TEETH WHITENING",
+        "category": "Beautify your smile",
+        "innerText": "Teeth whitening is a simple process. Whitening products contain one of two tooth bleaches (hydrogen peroxide or carbamide peroxide).",
+        "img": "http://medicare.bold-themes.com/dentist/wp-content/uploads/sites/3/2015/12/shutterstock_77455267-320x200.jpg",
+        "bgColor": "#00b3cc",
+        "textColor": "#222",
+        "textLight": "#7e8592"
+    }
+]

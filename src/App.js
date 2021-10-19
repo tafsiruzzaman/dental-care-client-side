@@ -5,7 +5,8 @@ import Home from './pages/Home/Home/Home';
 import NotFound from './pages/NotFound/NotFound';
 import SignIn from './pages/Registration/SignIn/SignIn';
 import SignUp from './pages/Registration/SignUp/SignUp';
-import Services from './pages/Services/Services';
+import ServiceDetails from './pages/ServiceDetails/ServiceDetails';
+import Services from './pages/Services/Services/Services';
 import Footer from './pages/Shared/Footer/Footer';
 import Header from './pages/Shared/Header/Header';
 import GeneralRoute from './PrivateRoutes/GeneralRoute/GeneralRoute';
@@ -24,15 +25,18 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <GeneralRoute path="/services">
+            <Route path="/services">
               <Services></Services>
-            </GeneralRoute>
+            </Route>
             <RegistrationRoute path="/signin">
               <SignIn></SignIn>
             </RegistrationRoute>
             <RegistrationRoute path="/signup">
               <SignUp></SignUp>
             </RegistrationRoute>
+            <GeneralRoute path="/service/:key">
+              <ServiceDetails></ServiceDetails>
+            </GeneralRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>
