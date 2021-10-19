@@ -20,7 +20,7 @@ const Contact = () => {
                         <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
                         <h3>Send us your message</h3>
                         <p className="mb-4">We will contact you very soon</p>
-                        <input defaultValue={user.dispalyName} placeholder="Your Name" {...register("name", {required: true})} />
+                        <input defaultValue={user.displayName} placeholder="Your Name" {...register("name", {required: true})} />
                         <input defaultValue={user.email} placeholder="Your Email" {...register("email", { required: true })} />
                         {errors.email && <span className="error text-start">This field is required</span>}
                         <input placeholder="City" defaultValue="" {...register("city", {required: true})} />
