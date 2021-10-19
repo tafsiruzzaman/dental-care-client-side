@@ -10,7 +10,7 @@ const Facilities = () => {
         .then(data => setFacilities(data))
     }, []);
     return (
-        <div className="container">
+        <div>
             <Row xs={1} md={2} lg={4} className="gx-0" >
                 {
                     facilities.map(facility => <Facility key={facility.key} facility={facility}></Facility>)

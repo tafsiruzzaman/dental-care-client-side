@@ -1,6 +1,8 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './contexts/AuthProvider';
+import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home/Home';
 import NotFound from './pages/NotFound/NotFound';
 import SignIn from './pages/Registration/SignIn/SignIn';
@@ -9,6 +11,7 @@ import ServiceDetails from './pages/ServiceDetails/ServiceDetails';
 import Services from './pages/Services/Services/Services';
 import Footer from './pages/Shared/Footer/Footer';
 import Header from './pages/Shared/Header/Header';
+import ThankYou from './pages/ThankYou/ThankYou';
 import GeneralRoute from './PrivateRoutes/GeneralRoute/GeneralRoute';
 import RegistrationRoute from './PrivateRoutes/RegistrationRoute/RegistrationRoute'
 
@@ -37,6 +40,15 @@ function App() {
             <GeneralRoute path="/service/:key">
               <ServiceDetails></ServiceDetails>
             </GeneralRoute>
+            <GeneralRoute path="/contact">
+              <Contact></Contact>
+            </GeneralRoute>
+            <Route path="/about">
+              <About></About>
+            </Route>
+            <Route path="/message">
+              <ThankYou></ThankYou>
+            </Route>
             <Route path="*">
               <NotFound></NotFound>
             </Route>
