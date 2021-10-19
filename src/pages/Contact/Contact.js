@@ -3,8 +3,10 @@ import { useForm } from 'react-hook-form';
 import './Contact.css';
 import img from '../../images/doctor.png'
 import { useHistory } from 'react-router';
+import useAuth from '../../hooks/useAuth';
 const Contact = () => {
     const history = useHistory();
+    const {user} = useAuth();
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data)
@@ -18,12 +20,12 @@ const Contact = () => {
                         <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
                         <h3>Send us your message</h3>
                         <p className="mb-4">We will contact you very soon</p>
-                        <input placeholder="Your Name" {...register("name", {required: true})} />
-                        <input placeholder="Your Email" {...register("email", { required: true })} />
+                        <input defaultValue={user.dispalyName} placeholder="Your Name" {...register("name", {required: true})} />
+                        <input defaultValue={user.email} placeholder="Your Email" {...register("email", { required: true })} />
                         {errors.email && <span className="error text-start">This field is required</span>}
-                        <input placeholder="City" defaultValue="" {...register("city")} />
-                        <input placeholder="Phone number" defaultValue="" {...register("phone")} />
-                        <input placeholder="Your Problem" defaultValue="" {...register("provlem")} />
+                        <input placeholder="City" defaultValue="" {...register("city", {required: true})} />
+                        <input placeholder="Phone number" defaultValue="" {...register("phone", {required: true})} />
+                        <input placeholder="Your Problem" defaultValue="" {...register("provlem", {required: true})} />
                         <input type="submit" value="Sent Message"/>
                         </form>
                     </div>
