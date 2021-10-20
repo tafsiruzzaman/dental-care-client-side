@@ -18,7 +18,7 @@ const Contact = () => {
                 <div className="col-md-6">
                     <div className="d-flex justify-content-center w-100">
                         <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
-                        <h3>Send us your message</h3>
+                        <h3 className="header_color fw-bolder">Send us your <span className="span_color">Message</span></h3>
                         <p className="mb-4">We will contact you very soon</p>
                         <div className="text-start">
                             <input defaultValue={user.displayName} placeholder="Your Name" {...register("name", {required: true})} />
@@ -28,8 +28,10 @@ const Contact = () => {
                             {errors.city && <span className="error text-start">This field is required</span>}
                             <input placeholder="Phone number" defaultValue="" {...register("phone", {required: true})} />
                             {errors.phone && <span className="error text-start my-0">This field is required</span>}
+                            <div>
                             <label className="form-label mt-3">Your message</label>
                             <textarea className="form-control" rows="3" {...register("message", { required: true })}></textarea>
+                            </div>
                             <input type="submit" className="bg-info text-white" value="Sent Message"/>
                         </div>
                         </form>
