@@ -1,7 +1,7 @@
 import React from 'react';
-import Facilities from '../Facilities/Facilities';
 import img from '../../../images/doktorka.png'
 import sign from '../../../images/sign.png'
+import Facilities from '../Facilities/Facilities';
 import './Middle.css';
 
 const Middle = () => {

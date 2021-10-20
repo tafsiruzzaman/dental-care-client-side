@@ -1,4 +1,5 @@
 import React from 'react';
+import Testimonials from '../../About/Testimonials/Testimonials/Testimonials';
 import Services from '../../Services/Services/Services';
 import Banner from '../Banner/Banner';
 import Doctors from '../Doctors/Doctors/Doctors';
@@ -9,9 +10,10 @@ const Home = () => {
     return (
         <div className="home">
             <Banner></Banner>
-            <Middle></Middle>
+            <Middle></Middle>            
             <Doctors></Doctors>
             <Services></Services>
+            <Testimonials></Testimonials>
         </div>
     );
 };
