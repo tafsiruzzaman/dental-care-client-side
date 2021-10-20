@@ -19,16 +19,17 @@ const Header = () => {
     };
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg"  bg="light" variant="light">
+            <Navbar collapseOnSelect sticky="top" expand="lg"  bg="light" variant="light">
             <Container>
             <Navbar.Brand><NavLink to="/home"><img src={logo} width="180" height="40" className="d-inline-block align-top" alt=""/></NavLink></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto text-center">
-                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-5" to="/home">HOME</NavLink>
-                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-5" to="/services">SERVICES</NavLink>
-                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-5" to="/about">ABOUT US</NavLink>
-                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-5" to="/contact">CONTACT</NavLink>
+                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-6" to="/home">HOME</NavLink>
+                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-6" to="/about">ABOUT US</NavLink>
+                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-6" to="/services">SERVICES</NavLink>
+                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-6" to="/appointment">APPOINTMENT</NavLink>
+                    <NavLink activeStyle={activeStyle} className="text-decoration-none my-1 me-4 text-info fs-6" to="/contact">CONTACT</NavLink>
                 </Nav>
                 <Nav className="text-center">
                  {

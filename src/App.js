@@ -2,6 +2,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './contexts/AuthProvider';
 import About from './pages/About/About/About';
+import Appointment from './pages/Appointment/Appointment';
+import Conformation from './pages/Conformation/Conformation';
 import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home/Home';
 import NotFound from './pages/NotFound/NotFound';
@@ -39,11 +41,17 @@ function App() {
             <GeneralRoute path="/contact">
               <Contact></Contact>
             </GeneralRoute>
+            <GeneralRoute path="/appointment">
+              <Appointment></Appointment>
+            </GeneralRoute>
             <Route path="/about">
               <About></About>
             </Route>
             <Route path="/message">
               <ThankYou></ThankYou>
+            </Route>
+            <Route path="/conformation">
+              <Conformation></Conformation>
             </Route>
             <Route path="*">
               <NotFound></NotFound>
