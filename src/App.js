@@ -6,7 +6,6 @@ import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home/Home';
 import NotFound from './pages/NotFound/NotFound';
 import SignIn from './pages/Registration/SignIn/SignIn';
-import SignUp from './pages/Registration/SignUp/SignUp';
 import ServiceDetails from './pages/ServiceDetails/ServiceDetails';
 import Services from './pages/Services/Services/Services';
 import Footer from './pages/Shared/Footer/Footer';
@@ -33,9 +32,6 @@ function App() {
             </Route>
             <RegistrationRoute path="/signin">
               <SignIn></SignIn>
-            </RegistrationRoute>
-            <RegistrationRoute path="/signup">
-              <SignUp></SignUp>
             </RegistrationRoute>
             <GeneralRoute path="/service/:key">
               <ServiceDetails></ServiceDetails>

@@ -9,7 +9,6 @@ const Doctors = () => {
         .then(res => res.json())
         .then(data => {
             setDoctors(data);
-            console.log(data)
         })
     }, []);
     return (
