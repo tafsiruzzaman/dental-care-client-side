@@ -15,7 +15,7 @@ const Middle = () => {
                             <div>
                                 <h4>Dr Jenna Wilson</h4>
                                 <hr className="w-25 text-info"/>
-                                <h1 className="text-info fs-1 fw-bolder">YOUR DENTAL TEAM</h1>
+                                <h1 className="text-info fs-1 fw-bolder">YOUR DENTAL TEAM </h1>
                                 <p>Dr. Jenna Wilson is is dedicated to providing her patients with the most beautiful smile together with the best dental protection available nowadays. Dr Jenna non malesuada erat, id consequat nunc. Nulla fermentum ipsum eget tortor laoreet varius.</p>
                                 <div className="d-flex align-items-center justify-content-center mt-5 mb-4">
                                     <img className="img-fluid" src={sign} alt="" />
